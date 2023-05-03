@@ -1,0 +1,101 @@
+#BestSelling {
+    width: 1248px;
+    height: 436px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-top: 96px;
+  }
+  
+  #BestInfo {
+    width: 256px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: space-between;
+    border-radius: 12px;
+  }
+  
+  #BestInfo h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1e1e1e;
+    margin: 0;
+  }
+  
+  #BestInfo p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    margin: 0;
+  }
+  
+  #BestInfo button {
+    width: 168px;
+    height: 51px;
+    background: #c1dcdc;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11.5px;
+  
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1e1e1e;
+  }
+  
+  #BestInfo button:hover{
+    border: 1px solid #fff;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .SellingBoxs {
+    width: 300px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+  }
+  
+  .SellingBoxs .boxs {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  .SellingBoxs .boxs h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1e1e1e;
+    margin: 0;
+  }
+  
+  .SellingBoxs .boxs p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+    margin: 0;
+  }
+  

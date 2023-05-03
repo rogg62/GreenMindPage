@@ -1,0 +1,28 @@
+#Feedback {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #FeedTitle {
+    width: 1248px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  #FeedTitle h1 {
+    width: 457px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  
