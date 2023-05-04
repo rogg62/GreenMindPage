@@ -37,6 +37,7 @@
     font-size: 18px;
     line-height: 27px;
     color: #1e1e1e;
+    transition: ease-in-out .2s;
   }
   
   #menu #menuBox2 {

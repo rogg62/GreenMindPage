@@ -44,6 +44,12 @@ footer {
   justify-content: space-between;
 }
 
+#RedeSocial img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  transition: ease-in-out .2s ;
+}
+
 #Links {
   width: 455px;
   height: 180px;
@@ -82,6 +88,11 @@ footer {
   text-decoration: none;
 }
 
+#link1 a:hover {
+  transition: .2s all;
+  color: black;
+}
+
 #link2 {
   width: 107px;
   height: 180px;
@@ -110,6 +121,11 @@ footer {
   text-decoration: none;
 }
 
+#link2 a:hover {
+  transition: .2s all;
+  color: black;
+}
+
 #link3 {
   width: 140px;
   height: 180px;
@@ -136,6 +152,11 @@ footer {
   line-height: 27px;
   color: rgba(30, 30, 30, 0.5);
   text-decoration: none;
+}
+
+#link3 a:hover {
+  transition: .2s all;
+  color: black;
 }
 
 #FooterBottom {

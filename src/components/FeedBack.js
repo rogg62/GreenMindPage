@@ -1,6 +1,5 @@
 import "./Feedback.css";
 import Comment1 from "../assets/Frame 45.svg";
-import Point from "../assets/Frame 47.svg";
 import Comment2 from "../assets/Frame 48.svg";
 
 const Feedback = () => {
