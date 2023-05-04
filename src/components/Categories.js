@@ -23,7 +23,7 @@ const Categories = () => {
           <p>Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button>
             Explore
-            <span class="material-symbols-outlined">arrow_right_alt</span>
+            <span className="material-symbols-outlined">arrow_right_alt</span>
           </button>
         </div>
 

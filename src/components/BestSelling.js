@@ -11,7 +11,7 @@ const BestSelling = () => {
         <p>Easiest way to healthy life by buying your favorite plants </p>
         <button>
           See more
-          <span class="material-symbols-outlined">arrow_right_alt</span>
+          <span className="material-symbols-outlined">arrow_right_alt</span>
         </button>
       </div>
       <div className="SellingBoxs">

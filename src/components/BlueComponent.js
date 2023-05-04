@@ -20,14 +20,14 @@ const BlueComponent = () => {
           </div>
         </div>
 
-        <div class="search-container">
+        <div className="search-container">
           <input
             type="text"
             id="text"
             placeholder="What are you looking for?"
           />
           <button type="submit">
-            <span class="material-symbols-outlined">search</span>
+            <span className="material-symbols-outlined">search</span>
           </button>
         </div>
       </div>
