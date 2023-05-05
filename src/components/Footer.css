@@ -197,7 +197,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   footer {
     height: 1000px;
     justify-content: space-around;
@@ -221,6 +221,81 @@ footer {
   #FooterBottom {
     width: 100%;
     height: 100px;
+  }
+
+  #copyFooter {
+    width: 100%;
+    height: 50px;
+  }
+
+  #copyFooter p {
+    text-align: center;
+  }
+
+  #link1 {
+    align-items: center;
+  }
+
+  #link2 {
+    align-items: center;
+  }
+
+  #link3 {
+    align-items: center;
+  }
+
+  #contactFooter {
+    align-items: center;
+  }
+
+  #contactFooter p {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+  footer {
+    width: 100%;
+    height: 400px;
+    background: #c1dcdc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #FooterTop {
+    width: 90%;
+  }
+
+  #FooterBottom {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 260px) and (max-width: 360px) {
+  footer {
+    height: 1000px;
+    justify-content: space-around;
+  }
+
+  #FooterTop {
+    width: 100%;
+    height: 800px;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  #Links {
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  #FooterBottom {
+    width: 90%;
+    height: 120px;
   }
 
   #copyFooter {

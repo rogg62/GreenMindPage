@@ -98,6 +98,26 @@
   margin: 0;
 }
 
+@media screen and (min-width: 260px) and (max-width: 360px) {
+  #BestSelling {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 0;
+  }
+
+  .SellingBoxs {
+    display: none;
+  }
+
+  #BestInfo {
+    width: 100%;
+  }
+  
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #BestSelling {
     width: 90%;
@@ -144,12 +164,21 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   #BestSelling {
     width: 90%;
     flex-direction: column;
     align-items: center;
     height: 1900px;
   }
-  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+  #BestSelling {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 960px;
+  }
 }

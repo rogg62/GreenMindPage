@@ -233,26 +233,94 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 260px) and (max-width: 360px) {
   #blueContainer {
-    width: 97%;
+    width: 98%;
     height: 600px;
     align-items: center;
+    justify-content: center;
   }
 
   #blueTitle {
     width: 98%;
-    height: 500px;
+    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     margin: 0;
   }
 
   #blueTitle h1 {
     text-align: center;
     font-size: 60px;
+    width: 90%;
+    height: 200px;
+    margin: 0 0 24px 0;
+  }
+
+  #Seta {
+    display: none;
+  }
+
+  #Seta2 {
+    display: none;
+  }
+
+  #bloobPlant {
+    display: none;
+  }
+
+  #info {
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .search-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search-container button {
+    right: 10px;
+  }
+
+  #text {
+    width: 95%;
+    align-self: center;
+    margin: 0;
+  }
+
+  #text::placeholder{
+    color: transparent;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+  #blueContainer {
+    width: 98%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+  }
+  #blueTitle {
+    width: 98%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+  }
+
+  #blueTitle h1 {
+    text-align: center;
+    font-size: 60px;
+    width: 90%;
     height: 200px;
     margin: 0 0 24px 0;
   }
@@ -288,8 +356,33 @@
   }
 
   #text {
-    width: 90%;
+    width: 95%;
     align-self: center;
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+  #blueContainer {
+    width: 90%;
+  }
+
+  #text:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.2 ease-in-out;
+  }
+
+  #bloobPlant {
+    right: 0;
+  }
+
+  #Seta {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+  }
+
+  #Seta2 {
+    display: none;
   }
 }

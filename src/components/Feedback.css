@@ -81,7 +81,7 @@
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
   #FeedTitle {
     width: 100%;
     justify-content: center;
@@ -103,8 +103,27 @@
     background: url(../assets/Frame\ 45\ \(2\).svg) no-repeat center #c1dcdc;
   }
 
-  #scroll .Scrollitem img{
+  #scroll .Scrollitem img {
     display: none;
   }
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1248px) {
+  #Feedback {
+    width: 100%;
+  }
+
+  #FeedTitle {
+    width: 90%;
+  }
+
+  #scroll {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 260px) and (max-width: 360px) {
+  #Feedback{
+    display: none;
+  }
 }
