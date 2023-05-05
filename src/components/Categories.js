@@ -12,14 +12,14 @@ const Categories = () => {
         <p>Find what you are looking for</p>
       </div>
       <div id="Categorie2">
-        <div className="boxeCategories2">
+        <div className="boxeCategories2" id="right">
           <img src={Plant1} alt="" />
           <h1>Natural Plants</h1>
         </div>
 
         <div id="boxeCategories2">
           <img src={Plant2} alt="" />
-          <h1>Plant Accessories</h1>
+          <h1>Plant Accessories <span id="none"> & Artificial , Natural Plants</span></h1>
           <p>Horem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button>
             Explore

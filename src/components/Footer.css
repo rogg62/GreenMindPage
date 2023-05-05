@@ -47,7 +47,7 @@ footer {
 #RedeSocial img:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 100px;
-  transition: ease-in-out .2s ;
+  transition: ease-in-out 0.2s;
 }
 
 #Links {
@@ -89,7 +89,7 @@ footer {
 }
 
 #link1 a:hover {
-  transition: .2s all;
+  transition: 0.2s all;
   color: black;
 }
 
@@ -122,7 +122,7 @@ footer {
 }
 
 #link2 a:hover {
-  transition: .2s all;
+  transition: 0.2s all;
   color: black;
 }
 
@@ -155,7 +155,7 @@ footer {
 }
 
 #link3 a:hover {
-  transition: .2s all;
+  transition: 0.2s all;
   color: black;
 }
 
@@ -179,4 +179,76 @@ footer {
   line-height: 27px;
   color: rgba(30, 30, 30, 0.5);
   margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #FooterTop {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  #FooterBottom {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #Links {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  footer {
+    height: 1000px;
+    justify-content: space-around;
+  }
+
+  #FooterTop {
+    width: 100%;
+    height: 800px;
+    gap: 0;
+    flex-direction: column;
+  }
+
+  #Links {
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  #FooterBottom {
+    width: 100%;
+    height: 100px;
+  }
+
+  #copyFooter {
+    width: 100%;
+    height: 50px;
+  }
+
+  #copyFooter p {
+    text-align: center;
+  }
+
+  #link1 {
+    align-items: center;
+  }
+
+  #link2 {
+    align-items: center;
+  }
+
+  #link3 {
+    align-items: center;
+  }
+
+  #contactFooter {
+    align-items: center;
+  }
+
+  #contactFooter p {
+    text-align: center;
+  }
 }
